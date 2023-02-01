@@ -38,8 +38,8 @@ function App() {
   }
 
   useEffect(() => {
-    checkWinner();
-    checkGameEnded();
+      checkWinner();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [gameData]);
 
   useEffect(() => {
@@ -49,12 +49,6 @@ function App() {
       }, [700]);
     };
     }, [winningCombo]);
-
-  const checkGameEnded = () => {
-    if(gameData.every((item) => item !== 0)) {
-      alert('o jogo acabou deu velha');
-    }
-  }
   
   const checkWinner = () => {
     let winner = null;
