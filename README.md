@@ -8,9 +8,9 @@ Here are the technologies used in this project.
 * Reactjs
 * CSS 3
 
-##Link to the web app
+## Link to the web app
 
-*https://luiz-dev-tic-tac-toe.netlify.app
+* https://luiz-dev-tic-tac-toe.netlify.app
 
 ## Services Used
 
